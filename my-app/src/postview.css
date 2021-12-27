@@ -1,0 +1,109 @@
+.site-container{
+    text-align: center;
+  }
+  html {
+    font-size: 14px;
+  }
+  body {
+    line-height: 1.5;
+    color: black;
+    margin:0;
+  }
+  .logo{
+    width: 225px;
+  
+  }
+  .site-container{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+  }
+  .container{
+    /* border: 1px solid; */
+    width: 50%;
+    background-color: #CFCFCF;
+  }
+  .camera{
+    width: 40px;
+    height: 75px;
+    margin-left: 422px;
+    margin-top: 22px;
+  }
+  .nav-container{
+    background-color: antiquewhite;
+    border-bottom: 1px solid grey;
+    height: 96px;
+  }
+  /* for each post css */
+  .card-container{
+    border: 1px solid gray;
+    width: 76%;
+    height: 30%;
+    margin: 27px auto;
+    border-radius: 9px;
+    box-shadow: 11px 14px 25px -6px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 11px 14px 25px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 14px 25px -6px rgba(0,0,0,0.75);
+  }
+  .post-img{
+    width: 578px;
+    height: 322px;
+    border-radius: 2px;
+    
+  }
+  .img-div{
+    margin-top: 22px;
+  }
+  .details{
+    display: inline-block;
+    text-align: left;
+    margin-left: 21px;
+    float: left;
+  
+  }
+  .dots-div{
+    display: inline-block;
+      margin-top: 29px;
+  }
+  .dots{
+    margin-left: 350px;
+  }
+  .like-share-date{
+    display: flex;
+    justify-content: space-between;
+  }
+  .like-share{
+    width: 134px;
+  }
+  .like{
+    width: 27px;
+    height: 40px ;
+  }
+  .share{
+        width: 23px;
+      height: 37px;
+      margin-left: 14px;
+  }
+  .likes{
+        display: flex;
+      justify-content: start;
+      margin-left: 28px;
+      margin-top: -7px;
+      font-weight: 300;
+  
+  }
+  .date{
+    margin-right: 12px;
+  }
+  .desc{
+    display: flex;
+      margin-left: 26px;
+      margin-top: 7px;
+  }
+  .name{
+    margin-bottom: -3px;
+  }
+  p{
+    font-weight: 300;
+  }
+  
